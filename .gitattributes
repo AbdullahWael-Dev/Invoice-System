@@ -26,7 +26,6 @@ composer.lock linguist-language=PHP
 # ----------------------------
 # Keep frontend files counted
 # ----------------------------
-public/assets/** linguist-language=JavaScript
 resources/js/** linguist-language=JavaScript
 resources/css/** linguist-language=CSS
 resources/scss/** linguist-language=SCSS
