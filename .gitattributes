@@ -24,11 +24,16 @@ composer.json linguist-language=PHP
 composer.lock linguist-language=PHP
 
 # ----------------------------
-# Ignore frontend/vendor files for language stats
+# Keep frontend files counted
 # ----------------------------
-public/assets/** linguist-vendored
-resources/js/** linguist-vendored
-resources/css/** linguist-vendored
+public/assets/** linguist-language=JavaScript
+resources/js/** linguist-language=JavaScript
+resources/css/** linguist-language=CSS
+resources/scss/** linguist-language=SCSS
+
+# ----------------------------
+# Ignore vendor files only
+# ----------------------------
 node_modules/** linguist-vendored
 vendor/** linguist-vendored
 .env linguist-vendored
