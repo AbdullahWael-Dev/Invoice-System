@@ -9,3 +9,6 @@
 /.github export-ignore
 CHANGELOG.md export-ignore
 .styleci.yml export-ignore
+
+public/assets/* linguist-vendored
+node_modules/* linguist-vendored
