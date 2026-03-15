@@ -4,7 +4,7 @@
 * text=auto
 
 # Syntax-aware diffs
-*.blade.php diff=html
+*.blade.php diff=php
 *.css diff=css
 *.scss diff=css
 *.html diff=html
